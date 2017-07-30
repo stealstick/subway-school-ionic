@@ -1,3 +1,86 @@
 page-home {
-
+.sub-line{
+  padding:10px;
+  margin-top: 20px;
+  height: 44px;
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+}
+.line1{
+  background: color($colors,line1);
+}
+.line2{
+  background: color($colors,line2);
+}
+.line3{
+  background: color($colors,line3);
+}
+.line4{
+  background: color($colors,line4);
+}
+.line5{
+  background: color($colors,line5);
+}
+.line6{
+  background: color($colors,line6);
+}
+.line7{
+  background: color($colors,line7);
+}
+.line8{
+  background: color($colors,line8);
+}
+.line9{
+  background: color($colors,line9);
+}
+.linecreate{
+  background-color: #C4E0FF;
+}
+.direction{
+  color: color($colors,dark);
+  font-size: 16px;
+}
+.subway-time{
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  font-size: 14px;
+  color: black;
+}
+.divider{
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #ccc;
+}
+.logo{
+  color: color($colors,secondary);
+  font-size: 24px;
+  margin : 0 !important;
+}
+.my-subway-card{
+  border-radius: 20px;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.34), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.creat-subway-card{
+  border-radius: 20px;
+  box-shadow: none;
+  background-color: #EDF6FF;
+  height: 200px;
+}
+.sub-line-create{
+  padding:12px;
+  margin-top: 20px;
+  height: 44px;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+}
+.plus-creat{
+  font-size: 50px;
+  height: 100%;
+  font-weight: 100;
+  color: #C4E0FF;
+  padding-top: 30px;
+  text-align: center;
+}
 }

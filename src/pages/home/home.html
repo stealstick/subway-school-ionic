@@ -1,12 +1,131 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
+	<ion-navbar>
+		<p  class="logo" text-center>
+			REALSUB
+		</p>
+	</ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>등교 지하철 실시간</h2>
-  <p>
-    Made by stealstick
-  </p>
+<ion-content>
+	<ion-card class="my-subway-card"> 
+		<div class="sub-line line5" color="line5" text-center>
+			목동
+		</div>
+		<ion-row padding>
+			<ion-col text-center class="direction">
+				상행
+			</ion-col>
+			
+			<ion-col text-center class="direction">
+				하행
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="divider">
+				<ion-row class="subway-time" padding>
+					<ion-col >
+						상일동행
+					</ion-col>
+					<ion-col text-right col-auto>
+						1분
+					</ion-col>
+				</ion-row>
+				<ion-row class="subway-time" padding>
+					<ion-col >
+						마천행
+					</ion-col>
+					<ion-col text-right>
+						10분
+					</ion-col>
+				</ion-row>
+
+			</ion-col>
+			<ion-col >
+				<ion-row class="subway-time" padding>
+					<ion-col >
+						방화행
+					</ion-col>
+					<ion-col text-right>
+						1분
+					</ion-col>
+				</ion-row>
+				<ion-row class="subway-time" padding>
+					<ion-col >
+						방화행
+					</ion-col>
+					<ion-col text-right>
+						12분
+					</ion-col>
+				</ion-row>
+			</ion-col>
+		</ion-row>
+		<div col >
+
+		</div>
+	</ion-card>
+	<ion-card class="my-subway-card"> 
+		<div class="sub-line line1" color="line5" text-center>
+			남영
+		</div>
+		<ion-row padding>
+			<ion-col text-center class="direction">
+				상행
+			</ion-col>
+			
+			<ion-col text-center class="direction">
+				하행
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="divider">
+				<ion-row class="subway-time" padding>
+					<ion-col>
+						서동탄행
+					</ion-col>
+					<ion-col text-right col-auto>
+						1분
+					</ion-col>
+				</ion-row>
+				<ion-row class="subway-time" padding>
+					<ion-col >
+						인천행
+					</ion-col>
+					<ion-col text-right col-auto>
+						10분
+					</ion-col>
+				</ion-row>
+
+			</ion-col>
+			<ion-col >
+				<ion-row class="subway-time" padding>
+					<ion-col >
+						광운대행
+					</ion-col>
+					<ion-col text-right col-auto>
+						1분
+					</ion-col>
+				</ion-row>
+				<ion-row class="subway-time" padding>
+					<ion-col >
+						서울역행
+					</ion-col>
+					<ion-col text-right col-auto>
+						12분
+					</ion-col>
+				</ion-row>
+			</ion-col>
+		</ion-row>
+		<div col >
+
+		</div>
+	</ion-card>
+	<ion-card class="creat-subway-card">
+		<div class="sub-line-create linecreate" color="line1" text-center>
+			정보를 받을 역을 추가해주세요.
+		</div>
+		<div class="plus-creat">
+			+
+		</div>
+	</ion-card>
+
 </ion-content>

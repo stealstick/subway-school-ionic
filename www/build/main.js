@@ -57,7 +57,7 @@ var TabsPage = (function () {
     return TabsPage;
 }());
 TabsPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/kimjuyong/ionic/subway/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="About" tabIcon="information-circle"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Contact" tabIcon="contacts"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/Users/kimjuyong/ionic/subway/src/pages/tabs/tabs.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/kimjuyong/subway-school-ionic/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="About" tabIcon="information-circle"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Contact" tabIcon="contacts"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/Users/kimjuyong/subway-school-ionic/src/pages/tabs/tabs.html"*/
     }),
     __metadata("design:paramtypes", [])
 ], TabsPage);
@@ -92,7 +92,7 @@ var AboutPage = (function () {
 }());
 AboutPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-about',template:/*ion-inline-start:"/Users/kimjuyong/ionic/subway/src/pages/about/about.html"*/'<ion-header>\n	<ion-navbar>\n		<ion-title>\n			목동역\n		</ion-title>\n	</ion-navbar>\n</ion-header>\n\n<ion-content>\n\n</ion-content>\n'/*ion-inline-end:"/Users/kimjuyong/ionic/subway/src/pages/about/about.html"*/
+        selector: 'page-about',template:/*ion-inline-start:"/Users/kimjuyong/subway-school-ionic/src/pages/about/about.html"*/'<ion-header>\n	<ion-navbar>\n		<ion-title>\n			목동역\n		</ion-title>\n	</ion-navbar>\n</ion-header>\n\n<ion-content>\n\n</ion-content>\n'/*ion-inline-end:"/Users/kimjuyong/subway-school-ionic/src/pages/about/about.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
 ], AboutPage);
@@ -127,7 +127,7 @@ var ContactPage = (function () {
 }());
 ContactPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-contact',template:/*ion-inline-start:"/Users/kimjuyong/ionic/subway/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      남영역\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>목동역</ion-list-header>\n    <ion-item>\n      <ion-icon name="ionic" item-left></ion-icon>\n      @ionicframework\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/kimjuyong/ionic/subway/src/pages/contact/contact.html"*/
+        selector: 'page-contact',template:/*ion-inline-start:"/Users/kimjuyong/subway-school-ionic/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      남영역\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>목동역</ion-list-header>\n    <ion-item>\n      <ion-icon name="ionic" item-left></ion-icon>\n      @ionicframework\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/kimjuyong/subway-school-ionic/src/pages/contact/contact.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
 ], ContactPage);
@@ -162,7 +162,7 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/Users/kimjuyong/ionic/subway/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h2>등교 지하철 실시간</h2>\n  <p>\n    Made by stealstick\n  </p>\n</ion-content>\n'/*ion-inline-end:"/Users/kimjuyong/ionic/subway/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/Users/kimjuyong/subway-school-ionic/src/pages/home/home.html"*/'<ion-header>\n	<ion-navbar>\n		<p  class="logo" text-center>\n			REALSUB\n		</p>\n	</ion-navbar>\n</ion-header>\n\n<ion-content>\n	<ion-card class="my-subway-card"> \n		<div class="sub-line line5" color="line5" text-center>\n			목동\n		</div>\n		<ion-row padding>\n			<ion-col text-center class="direction">\n				상행\n			</ion-col>\n			\n			<ion-col text-center class="direction">\n				하행\n			</ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col class="divider">\n				<ion-row class="subway-time" padding>\n					<ion-col >\n						상일동행\n					</ion-col>\n					<ion-col text-right col-auto>\n						1분\n					</ion-col>\n				</ion-row>\n				<ion-row class="subway-time" padding>\n					<ion-col >\n						마천행\n					</ion-col>\n					<ion-col text-right>\n						10분\n					</ion-col>\n				</ion-row>\n\n			</ion-col>\n			<ion-col >\n				<ion-row class="subway-time" padding>\n					<ion-col >\n						방화행\n					</ion-col>\n					<ion-col text-right>\n						1분\n					</ion-col>\n				</ion-row>\n				<ion-row class="subway-time" padding>\n					<ion-col >\n						방화행\n					</ion-col>\n					<ion-col text-right>\n						12분\n					</ion-col>\n				</ion-row>\n			</ion-col>\n		</ion-row>\n		<div col >\n\n		</div>\n	</ion-card>\n	<ion-card class="my-subway-card"> \n		<div class="sub-line line1" color="line5" text-center>\n			남영\n		</div>\n		<ion-row padding>\n			<ion-col text-center class="direction">\n				상행\n			</ion-col>\n			\n			<ion-col text-center class="direction">\n				하행\n			</ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col class="divider">\n				<ion-row class="subway-time" padding>\n					<ion-col>\n						서동탄행\n					</ion-col>\n					<ion-col text-right col-auto>\n						1분\n					</ion-col>\n				</ion-row>\n				<ion-row class="subway-time" padding>\n					<ion-col >\n						인천행\n					</ion-col>\n					<ion-col text-right col-auto>\n						10분\n					</ion-col>\n				</ion-row>\n\n			</ion-col>\n			<ion-col >\n				<ion-row class="subway-time" padding>\n					<ion-col >\n						광운대행\n					</ion-col>\n					<ion-col text-right col-auto>\n						1분\n					</ion-col>\n				</ion-row>\n				<ion-row class="subway-time" padding>\n					<ion-col >\n						서울역행\n					</ion-col>\n					<ion-col text-right col-auto>\n						12분\n					</ion-col>\n				</ion-row>\n			</ion-col>\n		</ion-row>\n		<div col >\n\n		</div>\n	</ion-card>\n	<ion-card class="creat-subway-card">\n		<div class="sub-line-create linecreate" color="line1" text-center>\n			정보를 받을 역을 추가해주세요.\n		</div>\n		<div class="plus-creat">\n			+\n		</div>\n	</ion-card>\n\n</ion-content>\n'/*ion-inline-end:"/Users/kimjuyong/subway-school-ionic/src/pages/home/home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
 ], HomePage);
@@ -291,7 +291,7 @@ var MyApp = (function () {
     return MyApp;
 }());
 MyApp = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/kimjuyong/ionic/subway/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/kimjuyong/ionic/subway/src/app/app.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/kimjuyong/subway-school-ionic/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/kimjuyong/subway-school-ionic/src/app/app.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
